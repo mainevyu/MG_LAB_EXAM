@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px 30px 20px 60px;
+}
+
+.title-top {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 30px auto;
+  text-align: left;
+}
+
+.title-top h1 {
+  font-size: 2.5rem;
+  color: #040e20; 
+  margin-bottom: 10px;
+}
+
+.title-top p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.content {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.content ul li {
+  background-color: #040e20;
+  color: #ffffff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.home ul li {
+  background-color: #040e20;
+  color: #ffffff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #040e20;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+button {
+  background-color: #040e20;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-radius: 40px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #040e20;
+}
+
+.box {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f4f6fa;
+  border-left: 5px solid #040e20;
+  border-radius: 8px;
+}
+
+.box p {
+  margin-bottom: 8px;
+}
+
+.navbar {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .title-top h1 {
+    font-size: 2rem;
+  }
+
+  .content {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-top h1 {
+    font-size: 1.6rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+  }
+}
